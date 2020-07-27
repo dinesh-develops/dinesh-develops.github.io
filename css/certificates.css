@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kaushan+Script&family=Noto+Sans+KR&family=Poppins:wght@800&family=Roboto&family=Source+Sans+Pro&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+body{
+    background: #f3f5f9;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    
+}
+.certificates{
+    padding-left: 500px;
+    padding-top: 20px;
+}
+.certificates #slide{
+    padding-bottom: 15px;
+    padding-left: 210px;
+}
+.certificates .mySlides 
+{
+    display: none;
+}
+.certificates img {
+    vertical-align: middle;
+}
+.certificates .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+/* Caption text */
+.certificates .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+.certificates .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+ .certificates .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+ .certificates .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+.certificates .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .certificates .text {font-size: 11px}
+  }
+.header-area h2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family:Poppins;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 0 2px 5px,rgba(0,0,0,.5);
+}
+.header-area h2 span{
+    color: chartreuse;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.wrapper .sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background:	rgb(64,64,64);
+    padding: 30px 0;
+}
+.wrapper .sidebar h2{
+    color: rgb(248,248,248);
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family:Noto Sans KR;
+    font-weight: bolder;
+} 
+.wrapper .sidebar h3{
+    color: rgb(248,248,248);
+    text-align: center;
+    font-family: Noto Sans KR;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.wrapper .sidebar ul li{
+    padding: 12px;
+    color: white;
+    border-bottom: 1px 	rgb(224,224,224);
+    border-top: 1px 	rgb(224,224,224) ;
+} 
+.wrapper .sidebar ul li a{
+    color: white;
+    display: block;
+} 
+.wrapper .sidebar ul li a .fas{
+    width: 35px;
+}
+.wrapper .sidebar ul li:hover{
+    background:rgb(136,136,136);
+}
+.wrapper .sidebar ul li:hover a{
+    color:#84DE02;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link href="./fontawesome-free-5.13.1-web/fontawesome-free-5.13.1-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h3>Dinesh's</h3>
+            <h3>Portfolio</h3>
+            <ul>
+                <li><a href="./edu.html"><i class="fas fa-user-graduate"></i>Education</a></li>
+                <li><i class="fas fa-project-diagram"></i><div class="w3-dropdown-hover">
+                    <button class="w3-button">Projects</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="./mirror.html" class="w3-bar-item w3-button">Mirror Jarvis</a>
+                      <a href="./home_automation.html" class="w3-bar-item w3-button">Home Automation</a>
+                      <a href="./internship.html" class="w3-bar-item w3-button">Sensor Hub</a>
+                    </div>
+                  </div></li>
+                <li><a href="./internship.html"><i class="fas fa-user-md"></i>Internship</a></li>
+                <li><a href="./skills.html"><i class="fas fa-running"></i>Skills</a></li>
+                <li><a href="./certificate.html"><i class="fas fa-certificate"></i>Certifications</a></li>
+                <li><a href=""><i class="fas fa-images"></i>Gallery</a></li>
+                <li><a href="#"><i class="fas fa-trophy"></i>Recognition</a></li>
+                <li><a href="./software.html"><i class="fas fa-laptop-code"></i>Softwares Used</a></li>
+                <li><a href="./technical.html"><i class="fas fa-tools"></i>Technical Coaching</a></li>
+                <li><a href="./implant.html"><i class="fas fa-book"></i>Implant Training</a></li>
+                <li><a href="./presentation.html"><i class="fas fa-file-powerpoint"></i>Paper Presentations</a></li>
+                <li><a href="./contactme.html"><i class="fas fa-id-card"></i>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="polaroid">
+        <img src="images/img1.jpg" alt="5 Terre" style="width:100%">
+    </div>
+    <div class="header-area">
+        <h2>I'M a <span class="animate"></span></h2>
+    </div> 
+    
+    <script src="./typed.js-master/typed.js-master/lib/typed.js"></script>
+    <script>
+        var typed = new Typed('.animate', {
+        // Waits 1000ms after typing "First"
+        strings: [
+            "Java Programmer",
+            "Python Programmer",
+            "Video Editor(Adobe Premiere Pro)",
+            "Selenium Tester",
+            "Project designer"
+        ],
+            typeSpeed:50,
+            backSpeed:50,
+            loop:true
+        });
+    </script>
+</body>
+</html>

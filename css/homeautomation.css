@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kaushan+Script&family=Noto+Sans+KR&family=Poppins:wght@800&family=Roboto&family=Source+Sans+Pro&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+.main-area .header{
+    text-align: center;
+    width: 100%;
+    height: 200%;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    text-indent: 50px;
+    background-color: rgb(64,64,64);
+}
+.project-area .title{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 260px;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+.project-area .projectvideo{
+    margin-left: 43%;
+}
+.project-area #showcase{
+    width: 14em;
+    height: 14em;
+    margin-top: 10px;
+    margin-left: 35rem;
+    padding-bottom: 1px;
+    box-shadow: 10px 5px 5px rgb(105,105,105);      
+}
+.project-area #shades{
+    margin-top: 185px;
+    margin-left: 35rem;
+    margin-bottom: 1em;
+    height: 3px;
+}
+.project-area #shades1{
+    margin-top: 15px;
+    margin-left: 35rem;
+    margin-bottom: 1em;
+    height: 3px;
+}
+.project-area #description{
+    margin-top: -200px;
+    margin-left: 53rem;
+}
+.project-area #description2{
+    margin-top: 10px;
+    margin-left: 53rem;
+}
+.project-area #description3{
+    margin-top: 10px;
+    margin-left: 53rem;
+}
+.project-area .imageslider{
+    margin-top: 7px;
+    margin-left: 21em;
+}
+.project-area .imageslider .gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: inherit;
+}
+.project-area .imageslider .gallery:hover{
+    border: 1px solid #777;    
+}
+.project-area .imageslider .gallery img{
+    width: 190px;
+    height: 120px;    
+}
+.project-area .imageslider .desc{
+    padding: 4px;
+    text-align: center;   
+}
+.project-area #team{
+    text-align: center;
+    margin-left: 260px;
+    font-size: 25px;
+    color: black;
+}
+.main-area .header .project h2{
+    color: white;
+}
+.main-area .header .project{
+    padding: inherit;
+    padding-top: 10px;
+    color: white;
+    text-shadow: 2px 3px 4px #000000;
+}
+.header-area h2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family:Poppins;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 0 2px 5px,rgba(0,0,0,.5);
+}
+
+.header-area h2 span{
+    color: chartreuse;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.wrapper .sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background:	rgb(64,64,64);
+    padding: 30px 0;
+}
+.wrapper .sidebar h2{
+    color: rgb(248,248,248);
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family:Noto Sans KR;
+    font-weight: bolder;
+} 
+.wrapper .sidebar h3{
+    color: rgb(248,248,248);
+    text-align: center;
+    font-family: Noto Sans KR;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.wrapper .sidebar ul li{
+    padding: 12px;
+    color: white;
+    border-bottom: 1px 	rgb(224,224,224);
+    border-top: 1px 	rgb(224,224,224) ;
+} 
+.wrapper .sidebar ul li a{
+    color: white;
+    display: block;
+} 
+.wrapper .sidebar ul li a .fas{
+    width: 35px;
+}
+.wrapper .sidebar ul li:hover{
+    background:rgb(136,136,136);
+}
+.wrapper .sidebar ul li:hover a{
+    color:#84DE02;
+}
+
+
+.project-area .team{
+    margin-top: 7px;
+    margin-left:680px;
+}
+.project-area .team .gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+.project-area .team .gallery:hover{
+    border: 1px solid #777;    
+}
+.project-area .team #yazh{
+    margin-right: 50px;
+}
+.project-area .team .gallery img{
+    width: 100%;
+    height: 150px;  
+}
+.project-area .team .desc{
+    padding: 4px;
+    text-align: center;   
+}
+.project-area #tech{
+    text-align: center;
+    margin-left: 260px;
+    font-size: 25px;
+    color: black;
+}
+.project-area #demo{
+    text-align: center;
+    margin-left: 260px;
+    font-size: 25px;
+    color: black;
+}
